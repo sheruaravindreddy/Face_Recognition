@@ -5,12 +5,12 @@ from sklearn.preprocessing import LabelEncoder
 import warnings
 warnings.filterwarnings("ignore")
 
-face_cascade = cv.CascadeClassifier('./cascades/haarcascade_frontalface_alt2.xml')
+face_cascade = cv.CascadeClassifier('../cascades/haarcascade_frontalface_alt2.xml')
 recognizer = cv.face.LBPHFaceRecognizer_create()
-recognizer.read('model.yml')
+recognizer.read('../Saved_models/model.yml')
 
 le = LabelEncoder()
-le.classes_ = np.load('encoder.npy')
+le.classes_ = np.load('../Saved_models/encoder.npy')
 
 cap = cv.VideoCapture(0)
 while True:
