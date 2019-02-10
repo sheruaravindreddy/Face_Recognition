@@ -1,5 +1,5 @@
 # Face_Recognition
-Building a pipeline for capturing images using webcam. Detection of face using from the image and building a model for Image Recognition
+Designing a pipeline for capturing images using webcam. Detection of face using from the image and building a model for Image Recognition
 
 
 Face Recognition task is accomplished using **CascadeClassifier** and **LBPHFaceRecognizer** of OpenCV. 
@@ -28,3 +28,8 @@ model and y_label encoder are saved to the local system.
 Run the script face_detection.py
 Model saved earlier is loaded and the labels are decoded using the encoder loaded. Thereby we detect the person and display the person’s name along with the confidence percentage.
  
+
+Sample_test: 
+![alt text][logo]
+
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
