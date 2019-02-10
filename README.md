@@ -31,3 +31,6 @@ Model saved earlier is loaded and the labels are decoded using the encoder loade
 
 <img src="https://github.com/sheruaravindreddy/Face_Recognition/blob/master/sample_result.png" width="200" height="200" />
 
+<p align="center">
+  <img src="https://github.com/sheruaravindreddy/Face_Recognition/blob/master/sample_result.png" width="200" height="200" />
+</p>
