@@ -32,4 +32,4 @@ Model saved earlier is loaded and the labels are decoded using the encoder loade
 Sample_test: 
 ![alt text][logo]
 
-[logo]: https://github.com/sheruaravindreddy/Face_Recognition/blob/master/sample_result.png =250x250"Logo Title Text 2"
+[logo]: https://github.com/sheruaravindreddy/Face_Recognition/blob/master/sample_result.png " width="250" height="250" Logo Title Text 2"
