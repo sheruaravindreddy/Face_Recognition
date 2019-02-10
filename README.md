@@ -29,6 +29,8 @@ Run the script face_detection.py
 Model saved earlier is loaded and the labels are decoded using the encoder loaded. Thereby we detect the person and display the person’s name along with the confidence percentage.
  
 
+<img src="https://github.com/sheruaravindreddy/Face_Recognition/blob/master/sample_result.png" width="200" height="400" />
+
 Sample_test: 
 ![alt text][logo]
 
