@@ -3,12 +3,12 @@ import numpy as np
 from PIL import Image
 import cv2 as cv
 
-face_cascade = cv.CascadeClassifier('./cascades/haarcascade_frontalface_alt2.xml')
+face_cascade = cv.CascadeClassifier('../cascades/haarcascade_frontalface_alt2.xml')
 recognizer = cv.face.LBPHFaceRecognizer_create()
 
 x_train = []
 y_labels = []
-path = "./Images"
+path = "../Images"
 for folder_name in os.listdir(path):
     for image_name in os.listdir(path+'/'+folder_name):
         if image_name.endswith("jpg") or image_name.endswith("jpeg"):
@@ -34,7 +34,7 @@ le = LabelEncoder()
 y_labels = le.fit_transform(y_labels)
 
 
-np.save('encoder.npy', le.classes_)
+np.save('../Saved_models/encoder.npy', le.classes_)
 
 recognizer.train(x_train, y_labels)
-recognizer.save('model.yml')
+recognizer.save('../Saved_models/model.yml')
