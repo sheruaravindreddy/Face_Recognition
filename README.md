@@ -1,5 +1,5 @@
 # Face_Recognition
-Designing a pipeline for capturing images using webcam. Detection of face using from the image and building a model for Image Recognition
+Designing a pipeline for capturing images using webcam. Loading the image and building a model for Image Recognition
 
 
 Face Recognition task is accomplished using **CascadeClassifier** and **LBPHFaceRecognizer** of OpenCV. 
